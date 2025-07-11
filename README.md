@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # QGroundControl Ground Control Station
 
 [![Releases](https://img.shields.io/github/release/mavlink/QGroundControl.svg)](https://github.com/mavlink/QGroundControl/releases)
@@ -18,3 +19,7 @@ Key Links:
 * [Discussion/Support](https://docs.qgroundcontrol.com/en/Support/Support.html)
 * [Contributing](https://dev.qgroundcontrol.com/en/contribute/)
 * [License](https://github.com/mavlink/qgroundcontrol/blob/master/COPYING.md)
+=======
+# qgroundcontrol_CG
+自定义Mavlink消息和按钮安卓版本QGC地面站
+>>>>>>> 2f47532400558839b77a16485c08cdb382f73022
