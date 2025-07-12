@@ -778,6 +778,16 @@ ApplicationWindow {
                onClicked:
                {
                    count++;
+                   button2_flag = 1;
+                   button3_flag = 1;
+                   button4_flag = 1;
+                   button5_flag = 1;
+                   button6_flag = 1;
+                   button7_flag = 1;
+                   button8_flag = 1;
+                   button9_flag  = 1;
+                   button10_flag = 1;
+                   button11_flag = 1;
                    enable_flag = enable_flag ? 0 : 1;
                    paotou_mavlink._sendcom(enable_flag, 0, 0, 0, 0, 0, 0, 0, 0, count)
                }
@@ -835,7 +845,8 @@ ApplicationWindow {
                    }
                    onClicked:
                    {
-
+                        button4_flag =0;
+                        button6_flag =0;
                         button3_flag = button3_flag ? 0:1;
                        count++;
                        paotou_mavlink._sendcom(enable_flag, 0, 0, 0, 0, 1, 0, 0, 0, count)
@@ -875,6 +886,8 @@ ApplicationWindow {
                 onClicked:
                 {
                     count++;
+                    button4_flag = 0;
+                    button8_flag = 0;
                     button5_flag = button5_flag ? 0:1;
                     paotou_mavlink._sendcom(enable_flag, 0, 0, 0, 0, 0, 1, 0, 0, count)
                 }
@@ -958,6 +971,8 @@ ApplicationWindow {
                 onClicked:
                 {
                     count++;
+                     button6_flag=0;
+                     button10_flag=0;
                      button9_flag = button9_flag ? 0:1;
                     paotou_mavlink._sendcom(enable_flag, 0, 0, 0, 0, 0, 0, 1, 0, count)
                 }
@@ -1000,6 +1015,8 @@ ApplicationWindow {
                 onClicked:
                 {
                     count++;
+                    button8_flag=0;
+                    button10_flag=0;
                      button11_flag = button11_flag ? 0:1;
                      paotou_mavlink._sendcom(enable_flag, 0, 0, 0, 0, 0, 0, 0, 1, count)
                 }
